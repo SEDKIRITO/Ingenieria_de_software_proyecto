@@ -180,7 +180,7 @@ nav {
 
 .articulo {
     width: 29%;
-    background: rgb(0, 0, 0);
+    background: rgb(95, 95, 97);
     margin-bottom: 30px;
     border-radius: 10px;
     padding: 45px 30px 60px 30px;
@@ -194,7 +194,7 @@ nav {
 .articulo>i {
     font-size: 30px;
     color: rgb(255, 255, 255);
-    background: #5f0202;
+    background: #bd2e21;
     display: inline-block;
     width: 70px;
     height: 70px;
@@ -218,13 +218,13 @@ nav {
 }
 
 .articulo>a {
-    color: #5D6678;
+    color: #f0f0f0;
     font-weight: 400;
     text-decoration: none;
 }
 
 .articulo>a:hover {
-    color: #1FDE82;
+    color: #fd0606;
     transition: color .5s;
 }
 
