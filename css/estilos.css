@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #a83c3c;
@@ -145,7 +144,6 @@ nav {
     margin-top: 14px;
     color: #ffffff;
 }
-
 
 .contenido-header a {
     margin: 28px 0 0 0;
@@ -456,6 +454,8 @@ footer {
 
     .articulo {
         width: 45%;
+
+
     }
 
     /* Questions */
@@ -464,6 +464,8 @@ footer {
         height: 720px;
         justify-content: space-evenly;
         flex-direction: column;
+
+
     }
 
     .questions>img {
@@ -514,6 +516,7 @@ footer {
     footer {
         justify-content: space-evenly;
     }
+
 
     .partFooter {
         width: 40%;
