@@ -141,6 +141,7 @@ nav {
 
 .contenido-header p {
     font-weight: 100;
+    font-size: larger;
     margin-top: 14px;
     color: #ffffff;
 }
@@ -246,33 +247,35 @@ nav {
     margin: 0 0 0 30px;
 }
 
-.textos-questions p {
+.textos-questions>p {
     font-weight: 100;
-    margin-top: 14px;
-    color: #5D6678;
+    color: #ffffff;
+    text-align: justify;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding-bottom: 20px;
 }
-
 
 .textos-questions a {
     margin: 28px 0 0 0;
     width: 130px;
     display: inline-block;
-    background: #1FDE82;
+    background: #ffffff;
     text-align: center;
-    color: #fff;
+    color: rgb(119, 1, 1);
     padding: 12px 0;
     text-decoration: none;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 14px;
     border-radius: 5px;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+    box-shadow: 0 8px 32px rgba(248, 248, 248, 0.46);
 }
 
 /* Results */
 
 .results {
-    background: #2570ff;
+    background: #ffffff;
     padding-top: 30px;
 }
 
@@ -290,8 +293,8 @@ nav {
 
 .numbers .number {
     width: 45%;
-    background: rgba(255, 255, 255, .2);
-    color: #fff;
+    background: rgba(163, 3, 3, 0.699);
+    color: rgb(192, 3, 3);
     border-radius: 10px;
     padding: 40px 35px;
     margin-bottom: 20px;
@@ -302,11 +305,13 @@ nav {
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .numbers .number p {
     color: #f2f5fc;
     font-weight: 300;
+    text-align: justify;
 }
 
 .results-text {
@@ -314,19 +319,21 @@ nav {
 }
 
 .results-text h4 {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 40px;
+    text-align: center;
 }
 
 .results-text p {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-weight: 300;
     margin: 20px 0;
+    text-align: center;
 }
 
 
 .results-text>a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: inline-block;
     border: 1px solid #fff;
